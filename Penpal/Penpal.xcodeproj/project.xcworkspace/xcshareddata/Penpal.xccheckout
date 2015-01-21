@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>FF458187-EFBE-4EDB-95D6-6789C80611BE</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Penpal</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>9172CF4226440BC4163929AFEDA0846A03CD430D</key>
+		<string>github.com:wentaoxu415/Penpal</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Penpal/Penpal.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>9172CF4226440BC4163929AFEDA0846A03CD430D</key>
+		<string>../../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>github.com:wentaoxu415/Penpal</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>9172CF4226440BC4163929AFEDA0846A03CD430D</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>9172CF4226440BC4163929AFEDA0846A03CD430D</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Penpal</string>
+		</dict>
+	</array>
+</dict>
+</plist>
