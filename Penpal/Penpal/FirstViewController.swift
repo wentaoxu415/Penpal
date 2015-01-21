@@ -12,13 +12,42 @@ import UIKit
 class FirstViewController: UIViewController {
 
     @IBOutlet weak var bottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var submitButton: UIButton!
+
+    @IBOutlet weak var storyTextField: UITextField!
+    @IBOutlet weak var oldStory: UITextView!
+    @IBOutlet weak var newStory: UITextView!
+    
+    @IBOutlet weak var buttonBottomConstraint: NSLayoutConstraint!
+    @IBOutlet weak var oldStoryBottom: NSLayoutConstraint!
+    
+    @IBOutlet weak var newStoryBottom: NSLayoutConstraint!
     
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
-    
-        [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector,(keyboardDidShow:) name:UIKeyboardDidShowNotification object:nil];
+        var tap: UITapGestureRecognizer = UITapGestureRecognizer(target: self, action: "dismissKeyboard")
+        self.view.addGestureRecognizer(tap)
+//        refreshUI()
         
+    }
+    
+    @IBAction func addStory(sender : AnyObject) {
+//        penpal.addNewStoryBlock(storyTextField.text)
+        var results = storyTextField.text
+        newStory.text = results
+        UIView.animateWithDuration(0.1, animations: { () -> Void in
+            self.oldStoryBottom.constant += 250
+        })
+    }
+    @IBAction func startTyping(sender : AnyObject) {
+        UIView.animateWithDuration(0.1, animations: { () -> Void in
+            self.bottomConstraint.constant = 710
+            self.buttonBottomConstraint.constant = 680
+        })
+    }
+    @IBAction func viewTapped(sender : AnyObject) {
+        self.storyTextField.resignFirstResponder()
     }
 
     override func didReceiveMemoryWarning() {
@@ -26,13 +55,14 @@ class FirstViewController: UIViewController {
         // Dispose of any resources that can be recreated.
     }
     
-    func keyboardWasShown(notification: NSNotification) {
-        var info = notification.userInfo!
-        var keyboardFrame: CGRect = (info[UIKeyboardFrameEndUserInfoKey] as NSValue).CGRectValue()
-        
-        UIView.animateWithDuration(0.1, animations: { () -> Void in
-            self.bottomConstraint.constant = 280 + 20
-        })
+    let penpal = PenpalModel()
+    
+    func refreshUI() {
+        newStory.text = ""
+    }
+    
+    func dismissKeyboard(){
+        self.storyTextField.resignFirstResponder()
     }
 
 

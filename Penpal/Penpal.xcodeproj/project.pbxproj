@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45AFA8841A6F65CB002B640D /* PenpalModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45AFA8831A6F65CB002B640D /* PenpalModel.swift */; };
 		52E236111A6EE902008AF234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E236101A6EE902008AF234 /* AppDelegate.swift */; };
 		52E236131A6EE902008AF234 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E236121A6EE902008AF234 /* FirstViewController.swift */; };
 		52E236151A6EE902008AF234 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E236141A6EE902008AF234 /* SecondViewController.swift */; };
@@ -27,6 +28,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45AFA8831A6F65CB002B640D /* PenpalModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PenpalModel.swift; sourceTree = "<group>"; };
 		52E2360B1A6EE902008AF234 /* Penpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E2360F1A6EE902008AF234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		52E236101A6EE902008AF234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -83,6 +85,7 @@
 				52E236121A6EE902008AF234 /* FirstViewController.swift */,
 				52E236141A6EE902008AF234 /* SecondViewController.swift */,
 				52E236161A6EE902008AF234 /* Main.storyboard */,
+				45AFA8831A6F65CB002B640D /* PenpalModel.swift */,
 				52E236191A6EE902008AF234 /* Images.xcassets */,
 				52E2361B1A6EE902008AF234 /* LaunchScreen.xib */,
 				52E2360E1A6EE902008AF234 /* Supporting Files */,
@@ -216,6 +219,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E236151A6EE902008AF234 /* SecondViewController.swift in Sources */,
+				45AFA8841A6F65CB002B640D /* PenpalModel.swift in Sources */,
 				52E236111A6EE902008AF234 /* AppDelegate.swift in Sources */,
 				52E236131A6EE902008AF234 /* FirstViewController.swift in Sources */,
 			);
@@ -411,6 +415,7 @@
 				52E2362E1A6EE902008AF234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E2362F1A6EE902008AF234 /* Build configuration list for PBXNativeTarget "PenpalTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				52E236311A6EE902008AF234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

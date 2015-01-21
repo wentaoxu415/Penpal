@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		45F1D5FB1A6F61B1005CBDD3 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 45F1D5FA1A6F61B1005CBDD3 /* Default-568h@2x.png */; };
 		52E235E11A6EE19B008AF234 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E235E01A6EE19B008AF234 /* AppDelegate.swift */; };
 		52E235E31A6EE19B008AF234 /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E235E21A6EE19B008AF234 /* MasterViewController.swift */; };
 		52E235E51A6EE19B008AF234 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52E235E41A6EE19B008AF234 /* DetailViewController.swift */; };
@@ -27,9 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		45F1D5FA1A6F61B1005CBDD3 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		52E235DB1A6EE19B008AF234 /* Penpal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Penpal.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52E235DF1A6EE19B008AF234 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		52E235E01A6EE19B008AF234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		52E235E01A6EE19B008AF234 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = Penpal/AppDelegate.swift; sourceTree = "<group>"; };
 		52E235E21A6EE19B008AF234 /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
 		52E235E41A6EE19B008AF234 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		52E235E71A6EE19B008AF234 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 		52E235D21A6EE19B008AF234 = {
 			isa = PBXGroup;
 			children = (
+				45F1D5FA1A6F61B1005CBDD3 /* Default-568h@2x.png */,
 				52E235DD1A6EE19B008AF234 /* Penpal */,
 				52E235F51A6EE19B008AF234 /* PenpalTests */,
 				52E235DC1A6EE19B008AF234 /* Products */,
@@ -196,6 +199,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				52E235E81A6EE19B008AF234 /* Main.storyboard in Resources */,
+				45F1D5FB1A6F61B1005CBDD3 /* Default-568h@2x.png in Resources */,
 				52E235ED1A6EE19B008AF234 /* LaunchScreen.xib in Resources */,
 				52E235EA1A6EE19B008AF234 /* Images.xcassets in Resources */,
 			);
@@ -411,6 +415,7 @@
 				52E235FE1A6EE19B008AF234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		52E235FF1A6EE19B008AF234 /* Build configuration list for PBXNativeTarget "PenpalTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +424,7 @@
 				52E236011A6EE19B008AF234 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
